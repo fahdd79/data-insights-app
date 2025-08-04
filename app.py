@@ -1,8 +1,8 @@
 import streamlit as st
 from data_loader import load_data
-from profiling    import show_profiling
-from eda          import show_eda
-from modeling     import show_modeling
+from profiling import show_profiling
+from eda import show_eda
+from modeling import show_modeling
 
 def main():
     st.set_page_config(

@@ -3,7 +3,7 @@ import base64
 
 def fig_to_base64(fig):
     """
-    Convert a Matplotlib figure to a base64‐encoded PNG string.
+    Convertt a Matplotlib figure to a base64‐encoded PNG string.
     """
     buf = io.BytesIO()
     fig.savefig(buf, format="png", bbox_inches="tight")

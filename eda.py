@@ -33,3 +33,4 @@ def show_eda(df):
         numeric_df = df.select_dtypes(include=["int64", "float64"])
         scatter_matrix(numeric_df, alpha=0.5, diagonal="hist", figsize=(8, 8))
         st.pyplot(plt.gcf())
+#
