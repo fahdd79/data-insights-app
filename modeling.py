@@ -381,7 +381,7 @@ def show_modeling(df: pd.DataFrame) -> None:
 
     # ──────────────────────────────────────────────────────────────────────
     # Finalize & offer HTML report download
-    # We join all HTML parts, then Streamlit serves it as a downloadable file.
+    # We join all HTML parts, then Streamlit serves it as a downloadable file
     # ──────────────────────────────────────────────────────────────────────
     report_parts.append("</body></html>")
     report_html = "\n".join(report_parts)

@@ -70,7 +70,7 @@ def show_profiling(df: pd.DataFrame) -> None:
 
     # ────────────────────────────────────────────────────────────────────
     # Unique values per column: helpful for spotting ID-like columns or
-    # very high-cardinality categoricals.
+    # very high-cardinality categoricals
     # ────────────────────────────────────────────────────────────────────
     with st.expander("✅ Unique Values Per Column"):
         unique_df = pd.DataFrame(df.nunique(), columns=["Unique Count"]).sort_values(

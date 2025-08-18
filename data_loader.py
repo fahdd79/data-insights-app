@@ -16,7 +16,7 @@ Design notes:
   - Excel requires `openpyxl` for .xlsx files; we surface a friendly message
     if it's missing.
   - For very large files, we display a quick heads-up to the user.
-  - Demo datasets are cached to avoid reloading on every rerun.
+  - Demo datasets are cached to avoid reloading on every rerun
 """
 
 from __future__ import annotations

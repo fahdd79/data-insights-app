@@ -12,7 +12,7 @@ What this renders:
 Notes:
 - We purposely compute a numeric-only view once and reuse it.
 - We handle small/edge cases (e.g., no numeric columns, only one numeric column).
-- Figures are explicitly closed after st.pyplot(...) to avoid memory/figure buildup.
+- Figures are explicitly closed after st.pyplot(...) to avoid memory/figure buildup
 """
 
 from __future__ import annotations

@@ -12,5 +12,5 @@ scikit-learn==1.5.1
 # --- Visualization ---
 matplotlib==3.9.1
 
-# --- Explainability ---
+# --- Explainability ----
 shap==0.48.0

@@ -19,7 +19,7 @@ Modules used:
 Notes:
   - We stash the current Python interpreter path into session_state so the
     Modeling module can display it in the SHAP status panel (useful when
-    debugging environments).
+    debugging environments)
 """
 
 from __future__ import annotations

@@ -85,6 +85,6 @@ def img_b64_html(b64: str, *, alt: str = "Figure", width: int = 700) -> str:
     Returns
     -------
     str
-        An HTML snippet you can append to your report_parts.
+        An HTML snippet you can append to your report_parts
     """
     return f'<img src="data:image/png;base64,{b64}" alt="{alt}" width="{width}"/>'
